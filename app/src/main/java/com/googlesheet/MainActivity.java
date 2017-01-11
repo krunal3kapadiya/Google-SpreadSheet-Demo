@@ -369,13 +369,8 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
 
             List<List<Object>> values = response.getValues();
             if (values != null) {
-                results.add("Name, Major");
-//                for (List row : values) {
-//                    results.add(row.get(0) + ", " + row.get(4));
-//                }
-
-                for (int i = 0; i < 40; i++) {
-                    results.add(values.get(0) + ", " + values.get(1));
+                for (int i = 0; i < values.size(); i++) {
+                    results.add(values.get(i).get(0) + ", " + values.get(i).get(1));
                 }
             }
             return results;
@@ -416,7 +411,6 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
                     mOutputText.setText("The following error occurred:\n"
                             + mLastError.getMessage());
                 }
-                Log.d("TagOutputErrer", mLastError.getMessage());
             } else {
                 mOutputText.setText("Request cancelled.");
             }
