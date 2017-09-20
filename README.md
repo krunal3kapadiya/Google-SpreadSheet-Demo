@@ -1,4 +1,4 @@
-# Google-SpreadSheet-Demo
+# Google-SpreadSheet-Demo [![Build Status](https://travis-ci.org/krunal3kapadiya/Google-SpreadSheet-Demo.svg?branch=master)](https://travis-ci.org/krunal3kapadiya/Google-SpreadSheet-Demo)
 **How to use this repository ?**
 
 Change spreadsheetId with your spreadsheet id.
