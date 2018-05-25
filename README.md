@@ -1,13 +1,14 @@
-# Google-SpreadSheet-Demo [![Build Status](https://travis-ci.org/krunal3kapadiya/Google-SpreadSheet-Demo.svg?branch=master)](https://travis-ci.org/krunal3kapadiya/Google-SpreadSheet-Demo)
-**How to use this repository ?**
+# Google SpreadSheet Demo [![Build Status](https://travis-ci.org/krunal3kapadiya/Google-SpreadSheet-Demo.svg?branch=master)](https://travis-ci.org/krunal3kapadiya/Google-SpreadSheet-Demo)
 
-Change spreadsheetId with your spreadsheet id.
+## How can I start
 
-range  Class Data!A1:E contains - [SHEET-NAME]![START-SHELL:END-SHELL]
+- Change ***spreadsheetId***.
+- Sheet contains range class like **Data!A1:E**, it contains - **[SHEET-NAME]![START-SHELL:END-SHELL]**
 
+## Working
 <img src="screen-shots/google-spreadsheet.jpg" width="450"/>
 
-Reference Sheet URL - https://goo.gl/T6ROCW
+Sheet that I have used in is: https://goo.gl/T6ROCW
 
 ## How to contribute?
 - Check out contribution :point_right: [Guidelines](./CONTRIBUTING.md)  
